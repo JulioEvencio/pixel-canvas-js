@@ -106,6 +106,20 @@ header .container {
     text-decoration: none;
 }
 
+/* header - menu-mobile */
+#menu-mobile {
+    display: none;
+}
+
+#menu-mobile-botao {
+    background-color: transparent;
+    color: var(--cor1);
+    font-size: 25px;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
 /* header - menu */
 #menu ul {
     list-style: none;
@@ -136,4 +150,52 @@ footer {
 
 footer p {
     text-align: center;
+}
+
+/*
+
+    responsivo - mobile
+
+*/
+@media (max-width: 600px) {
+    /*
+        geral
+    */
+    h1 {
+        font-size: 1.3em;
+    }
+
+    p, a, .botao {
+        font-size: 0.9em;
+    }
+
+    /*
+        menu responsivo
+    */
+    header .container {
+        flex-direction: column;
+    }
+
+    #menu-mobile {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+
+    }
+
+    #menu {
+        width: 100%;
+        padding-top: 10px;
+        display: none;
+    }
+
+    #menu ul {
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    #menu ul li {
+        margin: 0px;
+    }
 }
