@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor1: #F2F2F2;
+    --cor2: #A4A4A4;
+    --cor3: #5A5A5A;
+    --cor4: #262626;
+    --cor5: #0C0C0C;
+
+    --fonte-titulo: serif;
+    --fonte-paragrafo: sans-serif;
+    --fonte-link: serif;
+    --fonte-botao: serif;
+
+    --container-max-width: 1000px;
+}
