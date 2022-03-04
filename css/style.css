@@ -66,19 +66,19 @@ a:hover {
     text-decoration: underline;
 }
 
-.botao {
+button:not(#menu-mobile-botao) {
     background-color: var(--cor5);
     color: var(--cor1);
     font-family: var(--fonte-botao);
     font-weight: normal;
     font-size: 1em;
     padding: 10px  30px;
-    border: 3px solid var(--cor1);
+    border: 2px solid var(--cor1);
     border-radius: 30px;
     cursor: pointer;
 }
 
-.botao:hover {
+button:not(#menu-mobile-botao):hover {
     text-decoration: underline;
 }
 
@@ -176,7 +176,7 @@ footer p {
         font-size: 1.1em;
     }
 
-    p, a, .botao {
+    p, a, button:not(#menu-mobile-botao) {
         font-size: 0.9em;
     }
 
