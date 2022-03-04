@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+/*
+
+	geral
+
+*/
+figure {
+	background-color: #ffffff;
+}
+
+figure img {
+	width: 100%;
+}
+
+/*
+
+	introducao
+
+*/
+#introducao {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10px;
+}
+
+#introducao > div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/*
+
+	mobile
+
+*/
+@media (max-width: 600px) {
+	#introducao {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
