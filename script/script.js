@@ -1,4 +1,4 @@
-document.querySelector('#menu-mobile').addEventListener('click', exibirMenu)
+document.querySelector('#menu-mobile-botao').addEventListener('click', exibirMenu)
 
 function exibirMenu() {
 	if (document.querySelector('#menu').style.display == 'block')
