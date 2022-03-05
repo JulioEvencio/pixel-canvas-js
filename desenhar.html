@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/desenhar.css">
+	<title>Pixel Canvas JS</title>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div id="logo">
+				<a href="index.html"><h1>Pixel Canvas JS</h1></a>
+			</div>
+
+			<div id="menu-mobile">
+				<button id="menu-mobile-botao">&#9776;</button>
+			</div>
+
+			<nav id="menu">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="desenhar.html">Desenhar</a></li>
+					<li><a href="sobre.html">Sobre</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<div class="container">
+			<section id="paleta-de-cores">
+				<button cor="#000000" id="cor-preta" class="cores cor-selecionada"></button>
+				<button cor="#FF8C00" id="cor-laranja" class="cores"></button>
+				<button cor="#ff0000" id="cor-vermelha" class="cores"></button>
+				<button cor="#0000ff" id="cor-azul" class="cores"></button>
+				<button cor="#ffff00" id="cor-amarela" class="cores"></button>
+				<button cor="#00ff00" id="cor-verde" class="cores"></button>
+			</section>
+
+			<section id="quadro-branco">
+				<canvas id="tela"></canvas>
+			</section>
+
+			<section id="painel-de-botoes">
+				<button id="botao-limpar-tela">Limpar</button>
+			</section>
+		</div>
+	</main>
+
+	<footer>
+		<div class="container">
+			<p>
+				Desenvolvido por Júlio Evêncio - 2022<br><a href="https://github.com/JulioEvencio" target="_blank">GitHub</a> - <a href="https://pt.stackoverflow.com/users/219938/j%C3%BAlio-ev%C3%AAncio" target="_blank">Stack Overflow</a>
+			</p>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="script/script.js"></script>
+	<script type="text/javascript" src="script/desenhar.js"></script>
+</body>
+</html>
